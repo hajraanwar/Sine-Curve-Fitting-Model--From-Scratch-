@@ -29,7 +29,7 @@ The results include training the neural network, evaluating its performance on t
 Mean Squared Error (MSE) and R-squared (R2) scores are calculated and printed for evaluating the performance of the neural network on the testing set.
 
 ## Note
-This project was developed entirely from scratch using only the NumPy library. For a more comprehensive implementation using popular deep learning libraries, check out [link to your other repository].
+This project was developed entirely from scratch using only the NumPy library. For a more comprehensive implementation using popular deep learning libraries, check out [https://github.com/hajraanwar/Sine-Curve-Fitting-NN-Model--Using-Libraries-/edit/main/README.md].
 
 Feel free to explore and experiment with the code. If you find any issues or have suggestions for improvements, please open an issue.
 
