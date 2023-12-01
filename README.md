@@ -29,3 +29,16 @@ To run the neural network implementations, execute the following commands in you
 ```bash
 python neural_network_case1.py
 python neural_network_case2.py
+
+Results
+The results include training the neural network, evaluating its performance on testing data, and visualizing the predicted values against the target values and the original sine curve.
+
+Performance Metrics
+Mean Squared Error (MSE) and R-squared (R2) scores are calculated and printed for evaluating the performance of the neural network on the testing set.
+
+Note
+This project was developed entirely from scratch using only the NumPy library. For a more comprehensive implementation using popular deep learning libraries, check out [link to your other repository].
+
+Feel free to explore and experiment with the code. If you find any issues or have suggestions for improvements, please open an issue.
+
+Happy learning and coding!
