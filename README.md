@@ -1,44 +1,19 @@
-# Neural Network from Scratch
+Neural Network from Scratch
+This repository features a basic neural network built entirely from scratch using only NumPy. The neural network is designed to learn and predict a sine curve, making it a valuable educational resource for understanding fundamental concepts such as backpropagation.
 
-This repository contains a simple neural network implementation developed from scratch using only NumPy. The neural network is designed to learn and predict a sine curve. It serves as an educational project to understand the fundamentals of neural networks and backpropagation.
+Overview
+The repository includes two implementations:
 
-## Overview
-
-The neural network is implemented for two scenarios:
-
-1. **Case 1:** When there is one input corresponding to one output, e.g., `y = sin(x)`.
-2. **Case 2:** When there are multiple inputs and one corresponding output.
-
-For both cases, the neural network architecture includes an input layer, a hidden layer, and an output layer. The activation function used is the sigmoid function, and the mean squared error loss function is employed for training.
-
-## Files
-
-- **`neural_network_case1.py`:** Implementation for Case 1 with a sine curve example.
-- **`neural_network_case2.py`:** Implementation for Case 2 with a dataset split into training and testing sets.
-
-## Dependencies
-
-- NumPy
-- scikit-learn (for dataset splitting in Case 2)
-- Matplotlib (for visualization)
-
-## Usage
-
-To run the neural network implementations, execute the following commands in your terminal:
-
-```bash
-python neural_network_case1.py
-python neural_network_case2.py
+Case 1: One input corresponds to one output (e.g., y = sin(x)).
+Case 2: Multiple inputs and one corresponding output.
+For a more feature-rich implementation using popular deep learning libraries, refer to my other repository [link to your other repository].
 
 Results
-The results include training the neural network, evaluating its performance on testing data, and visualizing the predicted values against the target values and the original sine curve.
+The results showcase training the neural network, assessing its performance on testing data, and visualizing predictions against target values and the original sine curve.
 
 Performance Metrics
-Mean Squared Error (MSE) and R-squared (R2) scores are calculated and printed for evaluating the performance of the neural network on the testing set.
+Mean Squared Error (MSE) and R-squared (R2) scores are computed to evaluate the neural network's performance on the testing set.
 
-Note
-This project was developed entirely from scratch using only the NumPy library. For a more comprehensive implementation using popular deep learning libraries, check out [link to your other repository].
-
-Feel free to explore and experiment with the code. If you find any issues or have suggestions for improvements, please open an issue.
+Feel free to explore and experiment with the code. If you encounter any issues or have improvement suggestions, please open an issue.
 
 Happy learning and coding!
